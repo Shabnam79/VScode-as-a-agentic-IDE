@@ -1,24 +1,25 @@
-Turning VS Code into a Local Agentic AI Assistant
-Overview
+**Turning VS Code into a Local Agentic AI Assistant**
+
+**Overview**
 
 This project explains how to convert Visual Studio Code into a powerful local AI coding assistant using:
 
-Continue.dev extension
+1.Continue.dev extension
 
-Ollama (running locally)
+2.Ollama (running locally)
 
-Multiple local AI models
+3.Multiple local AI models
 
-The goal is simple:
-Create a fully offline, intelligent development environment where AI can:
+**The goal is simple:
+Create a fully offline, intelligent development environment where AI can:**
 
-Explain your source code
+1.Explain your source code
 
-Complete your code in real time
+2.Complete your code in real time
 
-Search across your project intelligently
+3.Search across your project intelligently
 
-Help with debugging and understanding logic
+4.Help with debugging and understanding logic
 
 All of this runs entirely on your local machine — no external APIs required.
 
@@ -46,33 +47,33 @@ This is the primary AI brain.
 
 It helps with:
 
-Explaining source code
+a- Explaining source code
 
-Answering technical questions
+b- Answering technical questions
 
-Debugging issues
+c- Debugging issues
 
-Reviewing code
+d- Reviewing code
 
-Suggesting improvements
+e- Suggesting improvements
 
-Whenever you ask something in chat, this model generates the response.
+f- Whenever you ask something in chat, this model generates the response.
 
 2️⃣ Auto-Completion Model
 
 This model focuses on speed.
 
-It helps with:
+a- It helps with:
 
-Completing functions
+b- Completing functions
 
-Writing boilerplate code
+c- Writing boilerplate code
 
-Suggesting inline code
+d- Suggesting inline code
 
-Improving development speed
+e- Improving development speed
 
-It runs lightweight and fast so that suggestions feel real-time.
+f- It runs lightweight and fast so that suggestions feel real-time.
 
 3️⃣ Embedding Model
 
@@ -80,32 +81,35 @@ This model is responsible for understanding your entire project.
 
 It:
 
-Indexes your source code
+a- Indexes your source code
 
-Converts files into vector format
+b- Converts files into vector format
 
-Enables semantic search
+c- Enables semantic search
 
-Helps the chat model retrieve relevant context
+d- Helps the chat model retrieve relevant context
 
-This is what makes the system “smart” about your project instead of giving generic answers.
+e- This is what makes the system “smart” about your project instead of giving generic answers.
 
-Installation Steps
-Step 1: Install VS Code
+**Installation Steps**
+**Step 1: Install VS Code**
 
 Install the latest version of VS Code.
 
-Step 2: Install Continue.dev Extension
+**Step 2: Install Continue.dev Extension**
 
-Open VS Code
+a- Open VS Code
 
-Go to Extensions (Ctrl + Shift + X)
+b- Go to Extensions (Ctrl + Shift + X)
 
-Search for Continue.dev
+c- Search for Continue.dev
 
-Install it
+d- Install it
 
-Step 3: Install Ollama
+<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/84bfd949-ca67-4380-94ca-45b2b3d4a811" />
+
+
+**Step 3: Install Ollama**
 
 After installing Ollama, verify:
 
